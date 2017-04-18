@@ -52,7 +52,18 @@ public:
 };
 
 int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
+    Solution y;
+    std::vector<int>numbers;
+    numbers.push_back(5);
+    numbers.push_back(6);
+    numbers.push_back(3);
+    numbers.push_back(7);
+    numbers.push_back(6);
+    numbers.push_back(12);
+    numbers.push_back(18);
+    numbers.push_back(2);
+    numbers.push_back(6);
+    numbers.push_back(10);
+    std::cout << y.rob(numbers) << std::endl;
     return 0;
 }
